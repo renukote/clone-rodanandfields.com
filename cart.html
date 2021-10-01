@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap" rel="stylesheet">
+    <link href = 'cart.css' rel = 'stylesheet' type = 'text/css'>
+
+</head>
+<body>
+    
+     <header id='header'> 
+
+        <div id='navTop'>
+            <div>
+                <div class = 'big-screen-only'>FIND A CONSULTANT</div>
+                <div class = 'small-screen-only' id = 'header-menu-small-screen-logo'><img src="https://img.icons8.com/windows/20/000000/grip-lines.png"/></div>
+            </div>
+            
+            <div id = 'rAndF-logo'><img src = 'https://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA' style='color:black;' /></div>
+
+            <div>
+                <div></div>
+                <div id = 'search-icon' class = 'big-screen-only'>
+                    <div>Search</div>
+                    <div>
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/16/000000/external-search-logistic-delivery-kiranshastry-lineal-kiranshastry.png" style='margin:3px'/>
+                    </div>
+                </div>
+
+                <div id = 'header-signin-logo' class = 'big-screen-only'>
+                    <div>Sign in</div>
+                    <div><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/18/000000/external-user-twitter-flatart-icons-outline-flatarticons.png" style='margin:0px 1px'/></div>
+                </div>
+
+                <div id='cart-logo' class='big-screen-only'>
+                    <a ><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="20" viewBox="0 0 50 50" style=" fill:#000000;"><path d="M 25 1 C 19.464844 1 15 5.464844 15 11 L 15 13 L 7.09375 13 L 7 13.875 L 3 48.875 L 2.875 50 L 47.125 50 L 47 48.875 L 43 13.875 L 42.90625 13 L 35 13 L 35 11 C 35 5.464844 30.535156 1 25 1 Z M 25 3 C 29.464844 3 33 6.535156 33 11 L 33 13 L 17 13 L 17 11 C 17 6.535156 20.535156 3 25 3 Z M 8.90625 15 L 15 15 L 15 17.28125 C 14.402344 17.628906 14 18.261719 14 19 C 14 20.105469 14.894531 21 16 21 C 17.105469 21 18 20.105469 18 19 C 18 18.261719 17.597656 17.628906 17 17.28125 L 17 15 L 33 15 L 33 17.28125 C 32.402344 17.628906 32 18.261719 32 19 C 32 20.105469 32.894531 21 34 21 C 35.105469 21 36 20.105469 36 19 C 36 18.261719 35.597656 17.628906 35 17.28125 L 35 15 L 41.09375 15 L 44.875 48 L 5.125 48 Z"></path></svg></a> 
+                </div>
+
+                <div id = 'cart-logo-small' class = 'small-screen-only'>
+                   <a><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="20" viewBox="0 0 50 50" style=" fill:#000000;"><path d="M 25 1 C 19.464844 1 15 5.464844 15 11 L 15 13 L 7.09375 13 L 7 13.875 L 3 48.875 L 2.875 50 L 47.125 50 L 47 48.875 L 43 13.875 L 42.90625 13 L 35 13 L 35 11 C 35 5.464844 30.535156 1 25 1 Z M 25 3 C 29.464844 3 33 6.535156 33 11 L 33 13 L 17 13 L 17 11 C 17 6.535156 20.535156 3 25 3 Z M 8.90625 15 L 15 15 L 15 17.28125 C 14.402344 17.628906 14 18.261719 14 19 C 14 20.105469 14.894531 21 16 21 C 17.105469 21 18 20.105469 18 19 C 18 18.261719 17.597656 17.628906 17 17.28125 L 17 15 L 33 15 L 33 17.28125 C 32.402344 17.628906 32 18.261719 32 19 C 32 20.105469 32.894531 21 34 21 C 35.105469 21 36 20.105469 36 19 C 36 18.261719 35.597656 17.628906 35 17.28125 L 35 15 L 41.09375 15 L 44.875 48 L 5.125 48 Z"></path></svg></a> 
+                </div>
+
+                <div id ='country' class = 'big-screen-only'>
+                    <img  class = 'flag' src = 'https://i.pinimg.com/originals/f5/71/43/f57143810c15dddcd9f6c122770e3ad4.png' />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                      </svg>
+                </div>
+            </div>
+        </div> 
+
+        <div id='navBottom' class = 'big-screen-only'>
+            <div></div>
+            <div><p id = 'shop-menu' class ='blue-border-bottom'>SHOP</p></div>
+            <div><p class ='blue-border-bottom'>BEST SELLERS</p></div>
+            <div><p id='features-menu'  class ='blue-border-bottom'>FEATURED</p></div>
+            <div><p class ='blue-border-bottom'>OUR-STORY</p></div>
+            <div><p class ='blue-border-bottom'>PERKS PROGRAM</p></div>
+            <div><p class ='blue-border-bottom'>BECOME-A-CONSULTANT</p></div>
+            <div><p class ='blue-border-bottom'>BLOG</p></div>
+            <div></div>
+        </div>
+
+
+        <div id ='drop-down-list'>
+
+            <div id='drop-down-SHOP' class='hide-list list-item'>
+                <div id = 'drop-down-SHOP-container'>
+                    <div>
+                        
+                            <div><b>SHOP BY CATEGORY</b></div>
+                            <div style = 'color:white'>.</div>
+                            <div>REGIMENS</div>
+                            <div>FACE SERUMS</div>
+                            <div>EYES, LIPS & LASHES</div>
+                            <div>FACE MASKS</div>
+                            <div>DERMACOSMETICS</div>
+                            <div>HAND & BODY</div>
+                            <div>SUN PROTECTION</div>
+                            <div>PRO SKINCARE TOOLS</div>
+                            <div>ACCESSORIES</div>
+                            <div>PFC FOUNDATION</div>
+                            <div>SPECIAL OFFERS</div>
+                        
+                    </div>
+
+                    <DIV>
+                        
+                            <div><B>SHOP BY CONCERN</B></div>
+                            <div style = 'color:white'>.</div>
+                            <div>FINE LINES & DEEP WRINKLES</div>
+                            <div>LIFTING & FIRMING</div>
+                            <div>DULL & TIRED SKIN</div>
+                            <div>ACNE & BREAKOUTS</div>
+                            <div>TEEN ACNE</div>
+                            <div>UNEVEN TONE/DARK SPOTS</div>
+                            <div>SENSITIVITY/VISIBLE REDNESS</div>
+                            <div>PORES & BLACKHEADS</div>
+                            <div>DRY SKIN</div>
+                        
+                    </DIV>
+
+                    <DIV>
+                        
+                            <div><B>SHOP BY PRODUCT divNE</B></div>
+                            <div style = 'color:white'>.</div>
+                            <div>REDEFINE</div>
+                            <div>RECHARGE</div>
+                            <div>UNBLEMISH</div>
+                            <div>SPOTLESS</div>
+                            <div>SOOTHE</div>
+                            <div>ENHANCEMENTS</div>
+                            <div>ESSENTIALS</div>
+                            <div>DERMACOSMETICS</div>
+                            <div>PRO SKINCARE TOOLS</div>
+                            <div>ALL PRODUCTS</div>
+                        
+                    </DIV>
+                </div>
+            </div>
+
+
+            <div id = 'drop-down-FEATURED' class = 'hide-list list-item'>
+                <div id = 'drop-down-FEATURED-container'>
+                    <div>
+                        <div>SPECIAL OFFERS</div>
+                        <DIV>SPOTLESS FOR TEENS</DIV>
+                        <DIV>SELF-CARE ESSENTIALS</DIV>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id = 'drop-down-OUR-STORY' class = 'hide-list list-item'>
+                <div id = 'drop-down-OUR-STORY-container'>
+                    <div>
+                        <div>R + F DIFFERENCE</div>
+                        <div>PERSONALIZED SERVICE</div>
+                        <DIV>EXPLORE OUR REGIMENS</DIV>
+                        <DIV>OUR FOUNDERS</DIV>
+                        <DIV>OUR IMPACT</DIV>
+                    </div>
+                </div>
+            </div>
+
+            <div id = 'drop-down-BECOME-A-CONSULTANT' class = 'hide-list list-item'>
+                <div id = 'drop-down-BECOME-A-CONSULTANT-container'>
+                    <div>
+                        <DIV>WHY R + F</DIV>
+                        <DIV>GET SET FOR SUCCESS</DIV>
+                        <DIV>CONSULTANT FAQs</DIV>
+                        <DIV>ENROLL NOW</DIV>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id = 'header-signin-box'class = 'big-screen-only list-item' >
+            <div id = 'header-signin-box-container' class = 'big-screen-only'>
+
+                    <form>
+                        <p>Email</p>
+                        <input type = 'email' id = 'header-signin-email'/>
+                        <div> <p>Password</p><p>Forgot Password?</p></div>
+                        <input type = 'password' id = 'header-signin-password'/>
+                    </form>
+
+                <p>This site is protected by reCAPTCHA and the <a href = "">Google Privacy Policy</a> and  <a href = "">Terms and Conditions</a> apply</p>
+                <p>We updated our <a href = "">Terms & Conditions</a> on 8/3/21. By clicking “SIGN IN” you agree to our updated terms, in addition to our <a href = "">Privacy Policy</a>.</p>
+
+                <div>SIGN IN</div>
+            </div>
+
+        </div>
+
+        
+        <div id = 'mini-cart-box' class = 'big-screen-only list-item'>
+            <div id = 'mini-cart-box-header'>
+                <div> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="20" viewBox="0 0 50 50" style=" fill:#000000;"><path d="M 25 1 C 19.464844 1 15 5.464844 15 11 L 15 13 L 7.09375 13 L 7 13.875 L 3 48.875 L 2.875 50 L 47.125 50 L 47 48.875 L 43 13.875 L 42.90625 13 L 35 13 L 35 11 C 35 5.464844 30.535156 1 25 1 Z M 25 3 C 29.464844 3 33 6.535156 33 11 L 33 13 L 17 13 L 17 11 C 17 6.535156 20.535156 3 25 3 Z M 8.90625 15 L 15 15 L 15 17.28125 C 14.402344 17.628906 14 18.261719 14 19 C 14 20.105469 14.894531 21 16 21 C 17.105469 21 18 20.105469 18 19 C 18 18.261719 17.597656 17.628906 17 17.28125 L 17 15 L 33 15 L 33 17.28125 C 32.402344 17.628906 32 18.261719 32 19 C 32 20.105469 32.894531 21 34 21 C 35.105469 21 36 20.105469 36 19 C 36 18.261719 35.597656 17.628906 35 17.28125 L 35 15 L 41.09375 15 L 44.875 48 L 5.125 48 Z"></path></svg></div>
+                <div><b>Your Bag</b></div>
+                <div id = 'mini-cart-close'><img src="https://img.icons8.com/fluency-systems-filled/16/777777/x.png"/></div>
+            </div>
+            <div>
+                <div id = 'mini-cart-box-content'>
+                    <p>Your Bag Is Empty</p>
+                    <p>Shop now to add products to your bag</p>
+                    <div>START SHOPPING</div>
+                </div>
+            </div>
+        </div>
+
+    <div id = 'header-select-country' class = 'big-screen-only list-item'>
+        <div><img src = 'data:image/png;base64,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' /></div>
+        <div><img src = 'data:image/png;base64,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' /></div>
+        <div><img src = 'data:image/png;base64,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'/></div>
+    </div>  
+
+        <div id = 'header-menu-small-screen' class = 'small-screen-only'>
+
+            <div>
+                <div id = 'header-signin-logo-small-screen'>
+                    <div ><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/18/000000/external-user-twitter-flatart-icons-outline-flatarticons.png" style='margin:0px 1px'/></div>
+                    <div >Sign in</div>
+                </div>
+                <div id = 'header-menu-small-screen-close'><img src="https://img.icons8.com/fluency-systems-filled/16/777777/x.png" /></div>
+            </div>
+
+            <div>
+                <div>SHOP BY CATEGORY</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>SHOP BY CONCERN</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>SHOP BY PRODUCT LINE</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>BEST SELLER</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>FEATURED</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>OUR STORY</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+            
+                <div>
+                    <div>PERKS PROGRAM</div>
+                    <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+                </div>
+
+            <div>
+                <div>BECOME A CONSULTANT</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>BLOG</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div>FIND A CONSULTANT</div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+
+            <div>
+                <div ID = 'switch-country-small-screen'>
+                    <DIV>SWITCH COUNTRY</DIV>
+                    <DIV> <img  class = 'flag' src = 'https://i.pinimg.com/originals/f5/71/43/f57143810c15dddcd9f6c122770e3ad4.png' /></DIV>
+                </div>
+                <DIV><img src="https://img.icons8.com/ios-glyphs/16/000000/forward.png"/></DIV>
+            </div>
+        </div>
+
+        <div id = 'header-search-bar' class = 'big-screen-only list-item'>
+            <div>
+                <div>
+                    <input type = 'text' id = 'header-search-bar-input'/>
+                    <img id = 'header-search-bar-close' src="https://img.icons8.com/fluency-systems-filled/22/777777/x.png" />
+                </div>
+
+                <div>Search for products, concerns and keywords.</div>
+            </div>
+
+
+            <div>
+                <div>
+                    <ul>
+                        <li><b>Common Searchs</b></li>
+                        <li>Acne</li>
+                        <li>Moisturizer</li>
+                        <li>Retinol</li>
+                        <li>Face Cerum</li>
+                        <li>Brows</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><b>Popular Products</b></li>
+                        <li>R+F Lash Boost</li>
+                        <li>REDEFINE Regimine</li>
+                        <li>Multi-Function Eye Cream</li>
+                        <li>Active Hydration Serum</li>
+                        <li>Micro-Dermabrasion Paste</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <img src = 'https://www.rodanandfields.com/medias/21-GR-Spot-Corrector-Core-Regimen-SEARCH-promotion-desktop.jpg?context=bWFzdGVyfHJvb3R8MTUxMjN8aW1hZ2UvanBlZ3xoNWYvaDRlLzEyNzgwOTI4MzM1OTAyLmpwZ3w2MmQzMTAyMjMxOGJjMzNmNTk3ZGFmYjExMDU1MGM1MjJlMzdmN2Y2NWRhMzk1M2U0ODhjNjA5NmFhZDVmNTFk'/>
+                    <div>
+                        <div>
+                            Tackle stubborn dark marks with REVERSE SPOT CORRECTOR <BR/>
+                            <a href = ''>Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header> 
+
+
+    <div id = 'main-body'>
+
+        <div id = 'empty-cart'>
+            <div>
+                <div id = 'empty-cart-box'>
+                    <div id = 'empty-cart-box-content'>
+                        <p>Your Bag Is Empty</p>
+                        <p>Shop now to add products to your bag</p>
+                        <div>START SHOPPING</div>
+                    </div>
+                </div>
+                <div>Please refer to our <a href = '' sytle = 'color:black'>shipping page</a> for more information</div>
+            </div>
+        </div>
+    </div>
+
+    <div id = 'selected-items'>
+        <div>REVIEW YOUR BAG</div>
+
+        <div style = 'display:flex'>
+            <div id = 'items-box'>
+                <div id = 'pc-perks'>
+                    <div><img src = 'https://www.rodanandfields.com/_ui/images/pcperks_upsell/pc-perks-logo.png' /></div>
+                    <p>Subscribe & Save $16.00!</p>
+                    <p>Join PC Perks for $19.95 to Save 10% + Get Free Shipping on orders $80+</p>
+                    <div>View More</div>
+                    <div>ADD MEMBERSHIP</div>
+                </div>
+
+
+                <div id = 'current-items' class = 'do-not-delete_has-js-manipulation'> </div>
+
+
+                <div id = 'best-seller'>
+                    <div>BEST SELLER</div>
+
+
+                    <div>
+                        <div>
+                            <div><img src = 'https://www.rodanandfields.com/medias/AAEY015-208x208-mobile-1.jpg?context=bWFzdGVyfGltYWdlc3wxOTA3Mzh8aW1hZ2UvanBlZ3xpbWFnZXMvaDBiL2g5NS8xMzUzMzExODQ5Njc5OC5qcGd8MzNlNTQ5MmJmNzkwMjRlZjI1OTA4MTMzMjNiYzVmOTQ3ODc5NDc3YTQxZDM3Yjk5YTRjYTJjODJiYWFkZGRlZA'/></div>
+                            <div>
+                                <div>REDEFINE Multi-Function Eye Cream</div>
+                                <div>ADD TO BAG - $70</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div><img src = 'https://www.rodanandfields.com/medias/AAEY015-208x208-mobile-1.jpg?context=bWFzdGVyfGltYWdlc3wxOTA3Mzh8aW1hZ2UvanBlZ3xpbWFnZXMvaDBiL2g5NS8xMzUzMzExODQ5Njc5OC5qcGd8MzNlNTQ5MmJmNzkwMjRlZjI1OTA4MTMzMjNiYzVmOTQ3ODc5NDc3YTQxZDM3Yjk5YTRjYTJjODJiYWFkZGRlZA'/></div>
+                            <div>
+                                <div>R + F Lash Boost </div>
+                                <div>ADD TO BAG - $155</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div><img src = 'https://www.rodanandfields.com/medias/ENHEFG1-208x208-mobile-1.jpg?context=bWFzdGVyfGltYWdlc3w0OTg4fGltYWdlL2pwZWd8aW1hZ2VzL2hkYy9oNTEvMTM1MzMxNzA1MzIzODIuanBnfGQ5ZGRiOWI5ZmQyYmI1OTY5ZWY5MjU5ZmMwNTgyYjQ5ZGFlYjg0MmM2MzhiY2VlNTkyODA4YzI3YTk1MDVmZjM'/></div>
+                            <div>
+                                <div>Active Hydration Serum</div>
+                                <div>ADD TO BAG - $112</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div> 
+            </div>
+    
+            <div id = 'billing'>
+
+                <div id = 'price'>
+                    <div>ORDER SUMMARY</div>
+
+                    <div class = 'flex'>
+                        <DIV>SUBTOTAL</DIV>
+                        <DIV class = 't-right' id = 'sub-total'><b>$155</b></DIV>
+                    </div>
+
+                    <div class = 'flex'>
+                        <DIV>SHIPPING</DIV>
+                        <DIV class = 't-right'>Calculated At Checkout</DIV>
+                    </div>
+
+                    <div class = 'flex'>
+                        <div>ESTIMATED TOTAL</div>
+                        <DIV class = 't-right' id = 'estimated-total'><b>$155</b></DIV>
+                    </div>
+
+                    <div> 4 interest-free payments of $38.75 with <b style = 'font-size:18px'>Klarna.</b>  <A HREF = ' ' STYLE = 'COLOR:BLACK'>Learn more</A> </div>
+
+                    <div>
+                        <DIV>
+                            <INPUT TYPE = 'TEXT' ID = 'promo' PLACEHOLDER = 'ENTER PROMO CODE' /> 
+                            <DIV id = 'apply-promo'>APPLY</DIV>
+                        </DIV>
+                    </div>
+                </div>
+
+                <div> CONTINUE SHOPPING</div>
+
+                <div>SECURE CHECKOUT</div>
+
+                <div>
+                    <div>We accept </div>
+                    
+                    <div>
+                        <div class="cart-info__payment-methods_container">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/cc-paypal.png" class="payment-method-img">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/cc-visa.png" class="payment-method-img">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/cc-mastercard.png" class="payment-method-img">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/cc-discover.png" class="payment-method-img">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/cc-amex.png" class="payment-method-img">
+					        <img src="https://rodanandfields.com/_ui/images/card-icons/klarna-logo.png" class="payment-method-img">
+	    				</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+         
+    <div id = 'footer-container'>
+        <div id = 'footer'>
+            <div class="big-screen-only">
+                <ul>
+                    <li><b>ABOUT R+F</b></li>
+                    <LI>PRESS ROOM</LI>
+                    <LI>COMPANY INFO</LI>
+                    <LI>EXECUTIVE TEAM</LI>
+                    <LI>CAREERS</LI>
+                    <LI>R+F RECYCLING PROGRAM</LI>
+                    <LI>BLOG</LI>
+                </ul>
+            </div>
+    
+            <div class = 'big-screen-only'>
+                <UL>
+                    <LI><B>HELP</B></LI>
+                    <LI>PRODUCT & HELP CENTER</LI>
+                    <LI>SHIPPING</LI>
+                    <LI>SATISFACTION GUARANTEE</LI>
+                    <LI>PROMOTIONAL TERMS & CONDITIONS</LI>
+                    <LI>R+F FAQ</LI>
+                    <LI>KLARNA</LI>
+                    <LI>SITE MAP</LI>
+                </UL>
+            </div> 
+    
+            <div>
+                    <DIV>LET'S KEEP IN TOUCH!</DIV>
+                     <DIV>
+                        <DIV> <INPUT TYPE = 'EMAIL' PLACEHOLDER = 'Enter your email'></DIV>
+                        <DIV>SIGN UP</DIV>
+                        <div>By providing my email, I accpet the <a href =' '>Rodan and Fields Privacy Policy</a></div>
+                            <div id = 'social-logos'>
+                                <img src="https://img.icons8.com/material-outlined/20/000000/facebook-f.png"/>
+                                <img src="https://img.icons8.com/ios-glyphs/20/000000/twitter--v1.png"/>
+                                <img src="https://img.icons8.com/ios-filled/20/000000/instagram--v1.png"/>
+                                <img src="https://img.icons8.com/ios-filled/20/000000/youtube-play.png"/>
+                                <img src="https://img.icons8.com/windows/20/000000/pinterest-p.png"/>
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+
+        <div class = 'big-screen-only' id = 'disclaimer'>
+            <div >
+                <div>© 2021 Rodan & Fields</div>
+                <div>Privacy Policy</div>
+                <div>Terms & Conditions</div> 
+                <div>Accessibility</div>
+                <div>California Supply Chains Act </div>
+                <div> DSA Code Of Ethics</div>
+                <div>Disclaimer</div>
+                <div>Cookie Settings</div>
+            </div>
+        </div>
+
+        <div id ='footer-small-screen-list' class = 'small-screen-only' >
+            <div>
+                <div>
+                    <div class = 'footer-small-screen-list-trigger'>ABOUT R+F</div>
+                    <div><img src="https://img.icons8.com/android/20/000000/plus.png"/ ></div>
+                </div>
+                <div class = 'footer-small-screen-list-item'>
+                    <UL>
+                        <LI>PRESS ROOM</LI>
+                        <LI>COMPANY INFO</LI>
+                        <LI>EXECUTIVE TEAM</LI>
+                        <LI>CAREERS</LI>
+                        <LI>R+F RECYCLING PROGRAM</LI>
+                        <LI>BLOG</LI>
+                    </UL>
+                </div>
+            </div>
+
+            <DIV>
+                <DIV class = 'footer-small-screen-list-trigger'>
+                    <div>HELP</div>
+                    <div><img src="https://img.icons8.com/android/20/000000/plus.png"/ ></div>
+                </DIV>
+                <DIV class = 'footer-small-screen-list-item'>
+                    <UL>
+                        <LI>PRODUCT & HELP CENTER</LI>
+                        <LI>SHIPPING</LI>
+                        <LI>SATISFACTION GUARANTEE</LI>
+                        <LI>PROMOTIONAL TERMS & CONDITIONS</LI>
+                        <LI>R+F FAQ</LI>
+                        <LI>KLARNA</LI>
+                        <LI>SITE MAP</LI>
+                    </UL>
+                </DIV>
+            </DIV> 
+
+            <DIV>
+                <DIV class = 'footer-small-screen-list-trigger'>
+                    <div>DISCLAIMER</div>
+                    <div><img src="https://img.icons8.com/android/20/000000/plus.png"/ ></div>
+                </DIV>
+                <DIV class = 'footer-small-screen-list-item'>
+                    <ul>
+                        <li>© 2021 Rodan & Fields</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li> 
+                        <li>Accessibility</li>
+                        <li>California Supply Chains Act </li>
+                        <li> DSA Code Of Ethics</li>
+                        <li>Disclaimer</li>
+                        <li>Cookie Settings</li>
+                    </ul>
+                </DIV>
+            </DIV> 
+
+            <div>@2021 Rodan and Fields</div>
+        </div>
+
+    </div> 
+
+
+
+    <script>
+        // adding eventlisteners to the required elements
+        let navBottom = document.getElementById('navBottom');
+        let list = navBottom.querySelectorAll('div');
+
+        let rAndFLogo  = document.getElementById('rAndF-logo');
+        rAndFLogo.onclick = function(){ window.location.href = 'homePage.html'}
+
+        let cartLogo = document.getElementById('cart-logo');
+        cartLogo.onclick = function() { window.location.href = 'cart.html'}
+
+        let cartLogoSmall = document.getElementById('cart-logo-small');
+        cartLogoSmall.onclick = function() { window.location.href = 'cart.html'}
+
+        let cartBoxLogo = document.getElementById('')
+
+        let cartBox = document.getElementById('mini-cart-box');
+        cartBox.addEventListener('mouseout',function(){hideList('mini-cart-box')});
+
+        let cartBoxHeader = document.getElementById('mini-cart-box-header');
+        cartBoxHeader.addEventListener('mouseover',function(){showList('mini-cart-box')});
+        cartBoxHeader.addEventListener('mouseout',function(){hideList('mini-cart-box')});
+
+        let cartBoxContent = document.getElementById('mini-cart-box-content');
+        cartBoxContent.addEventListener('mouseover',function(){showList('mini-cart-box')});
+        cartBoxContent.addEventListener('mouseout',function(){hideList('mini-cart-box')});
+
+        let cartBoxCloseBtn = document.getElementById('mini-cart-close');
+        cartBoxCloseBtn.onclick = function () { hideList('mini-cart-box')}
+
+        let headerSigninBtn = document.getElementById('header-signin-logo');
+        headerSigninBtn.onclick = function(){ toggleList('header-signin-box-container')};
+
+        let selectCountry = document.getElementById('country');
+        selectCountry.onclick = function () {toggleList('header-select-country');}
+        let countriesList = document.getElementById('header-select-country');
+        countriesList = countriesList.querySelectorAll('div')
+
+        for( let i = 0; i < countriesList.length; i++)
+        {
+            countriesList[i].onclick = function(){ switchCountries(event) };
+        }
+
+        let headerSmallScreenMenuOpen = document.getElementById('header-menu-small-screen-logo');
+        headerSmallScreenMenuOpen.onclick = function() { showList('header-menu-small-screen')}
+
+        let headerSmallScreenMenuClose = document.getElementById('header-menu-small-screen-close');
+        headerSmallScreenMenuClose.onclick = function() { hideList('header-menu-small-screen')};
+
+        let siginLogo = document.getElementById('header-signin-logo-small-screen');
+        siginLogo.onclick = function() { switchPage('signin.html'); }
+
+        let headerSearchInput = document.getElementById('header-search-bar-input');
+        headerSearchInput.onfocus = function(event) { event.target.style.border = 'none'};
+
+        let searchIcon = document.getElementById('search-icon');
+        searchIcon.onclick = function() { showList('header-search-bar')}
+
+        let headerSearchClose = document.getElementById('header-search-bar-close');
+        headerSearchClose.onclick = function() { hideList('header-search-bar')};
+        headerSearchClose.addEventListener('focusout',function() { hideList('header-search-bar')});
+
+        let footerSmallScreenListTriggers = document.querySelectorAll('.footer-small-screen-list-trigger');
+        let footerSmallScreenListItems = document.querySelectorAll('.footer-small-screen-list-item');
+
+
+        for( let i = 0; i < footerSmallScreenListTriggers.length; i++)
+        {
+            footerSmallScreenListTriggers[i].onclick = function() { 
+                let listItem = footerSmallScreenListItems[i] ;
+                toggleFooterList(listItem) 
+            } 
+        }
+
+        // toggle footer list
+        function toggleFooterList(listItem)
+        {
+            console.log( 'triggered');
+            if( listItem.style.display == 'none') {
+                listItem.style.display = 'inline';
+            }
+            else listItem.style.display = 'none';
+
+
+        }
+
+
+        // adding eventlisteners to all the elements in the navBottom bar
+        for( let i = 1; i < list.length-1; i++)
+        {
+            let item = list[i];
+            let id = 'drop-down-' + item.textContent;
+            item.addEventListener('mouseover',function(){ showList(id)});
+
+            let itemId = 'drop-down-'+item.textContent+'-container';
+            let itemMenu = document.getElementById(itemId);
+            if( itemMenu != null ) 
+            {
+                itemMenu.addEventListener('mouseover',function(){showList(id)});
+                itemMenu.addEventListener('mouseout',function(){hideList(id)});
+            }
+        }
+
+
+        // function to show elements
+        function showList(id)
+        {
+            let dropList = document.getElementById('drop-down-list');
+            let listItems = dropList.querySelectorAll('.list-item');
+            
+            for( let i = 0; i < listItems.length; i++)
+            {
+                listItems[i].style.display = 'none';
+            }
+
+            let dropDownItem = document.getElementById(id);
+            if( dropDownItem !== null) dropDownItem.style.display = 'inline';
+        }
+
+
+        // function to hide elements 
+        function hideList(id)
+        {
+            let dropDown = document.getElementById(id);
+            dropDown.style.display = 'none';
+        }
+
+        
+        // Toggling elements
+        function toggleList(id)
+        {
+            let ele = document.getElementById(id);
+            
+            if( ele.style.display == 'none' ) ele.style.display = 'inline';
+            else ele.style.display = 'none';
+        }
+
+
+        // switching countries
+        function switchCountries(event) 
+        {
+            let currCountry = document.getElementById('country');
+            let currImg = currCountry.querySelector('img');
+            
+            let newImg = event.target;
+            
+            let temp = currImg.src;
+            currImg.src = newImg.src;
+            newImg.src = temp;
+        }
+
+        //  switching pages
+        function switchPage(loc) 
+        {
+            console.log( 'triggered' );
+            window.location.href = 'signin.html';
+        }
+    </script>  
+
+    <!-- making the cart functional -->
+    <script>
+        let cart = JSON.parse(localStorage.getItem('rAndF_cart'));
+        let selectedItems = document.getElementById('selected-items');
+        let emptyCart = document.getElementById('empty-cart');
+        let currentItems = document.getElementById('current-items');
+        let applyPromoBtn = document.getElementById('apply-promo');
+        applyPromoBtn.onclick = function() { applyPromo()}
+
+        let currCount = 1;
+
+
+        if( cart == undefined || cart.length == 0 ) {
+            selectedItems.style.display = 'none';
+            emptyCart.style.display = 'inline';
+        }
+        else {
+            emptyCart.style.display = 'none';
+            selectedItems.style.display = 'inline';
+
+            cart.forEach(function(item)
+            {
+                let newItem = document.createElement('div');
+                newItem.id = 'div' + currCount;
+
+                let imgDiv = document.createElement('div');
+                let img = document.createElement('img');
+                img.src = item.img;
+                imgDiv.append(img);
+
+                let quantityDiv = document.createElement('div');
+                let itemName = document.createElement('div');
+                itemName.textContent = item.name;
+                quantityDiv.append(itemName);
+
+                let noOfItemsDiv = document.createElement('div');
+
+                let itemCountMinusDiv = document.createElement('div');
+                let itemCountMinus = document.createElement('p');
+                itemCountMinus.textContent = '_';
+                itemCountMinus.id = 'm' + currCount;
+                itemCountMinusDiv.append( itemCountMinus );
+                itemCountMinus.onclick = function() { reduceCount(item) }
+                noOfItemsDiv.append(itemCountMinusDiv);
+
+                let itemCountDiv = document.createElement('div');
+                let itemCount = document.createElement('p');
+                itemCount.textContent =  item.count;
+                itemCount.id = 'c' + currCount;
+                itemCountDiv.append(itemCount);
+                noOfItemsDiv.appendChild(itemCountDiv);
+
+                let itemCountPlusDiv = document.createElement('div');
+                let itemCountPlus = document.createElement('p');
+                itemCountPlus.textContent = '+';
+                itemCountPlus.id = 'p' + currCount
+                itemCountPlusDiv.append( itemCountPlus );
+                itemCountPlusDiv.onclick = function() { increaseCount(item) };
+                noOfItemsDiv.append(itemCountPlusDiv);
+
+                quantityDiv.append(noOfItemsDiv);
+
+
+                let priceAndDel = document.createElement('div');
+                
+                let delIcon = document.createElement('img');
+                delIcon.src = 'https://img.icons8.com/material-outlined/18/3949AB/filled-trash.png';
+                delIcon.id = 'd'+currCount;
+                delIcon.onclick = function() { deleteItem(item); };
+                priceAndDel.append(delIcon);
+
+                let price = document.createElement('div');
+                price.textContent = '$' + item.retail + '.00'
+                priceAndDel.append(price);
+
+                newItem.append(imgDiv,quantityDiv,priceAndDel);
+                currentItems.append(newItem);
+
+                currCount++;
+            });
+        }
+
+        // function to reduce the count of items using the minus symbol
+        function reduceCount(item)
+        {
+            
+            let arr = event.target.id;
+            arr = arr.split('');
+            arr.shift();
+            arr = arr.join('');
+            arr = +arr;
+            
+            let targetCount = document.getElementById(`c${arr}`);
+            let existingCount = Number(targetCount.textContent);
+            
+            if( item.count > 0) item.count--;
+            if( existingCount > 0) targetCount.textContent = existingCount - 1;
+            countTotal();
+
+            localStorage.setItem('rAndF_cart',JSON.stringify(cart));
+        }
+
+
+        //  functioni to increase the count of items using the plus symbol
+        function increaseCount(item)
+        {
+            item.count++;
+            let arr = event.target.id;
+            arr = arr.split('');
+            arr.shift();
+            arr = arr.join('');
+            arr = +arr;
+
+            let targetCount = document.getElementById(`c${arr}`);
+            let existingCount = Number(targetCount.textContent);
+            targetCount.textContent = existingCount + 1;
+            countTotal();
+
+            localStorage.setItem('rAndF_cart',JSON.stringify(cart));
+        }
+
+
+        // displaying the subtotal and estimated value;
+        function countTotal() 
+        {
+            let subTotal = document.getElementById('sub-total');
+            let estTotal = document.getElementById('estimated-total');
+
+            let totalPrice = 0;
+            cart.forEach(function(item) {
+            totalPrice += (item.retail * item.count);
+            });
+        
+            subTotal.textContent = '$' + totalPrice;
+            estTotal.textContent = '$' + totalPrice;
+        }
+        countTotal();
+
+        // function to delete 
+        function deleteItem(item)
+        {
+            console.log( event.target.id );
+            let arr = event.target.id;
+            arr = arr.split('');
+            arr.shift();
+            arr = arr.join('');
+            arr = +arr;
+
+            let divToBeRemoved = document.getElementById(`div${arr}`);
+            currentItems.removeChild(divToBeRemoved);
+
+            let newCart = cart.filter(function(cartItem)
+            {
+                if( cartItem.name !== item.name ) return item;
+            });
+
+            localStorage.setItem('rAndF_cart',JSON.stringify(newCart))
+            cart = newCart;
+            countTotal();
+
+
+            if( newCart == undefined || newCart.length == 0 ) {
+            selectedItems.style.display = 'none';
+            emptyCart.style.display = 'inline';
+        }
+
+    }
+        // function to apply promo code 
+        function applyPromo()
+        {
+            let estTotal = document.getElementById('estimated-total');
+            let currBill = estTotal.textContent;
+            currBill = currBill.split('');
+            currBill.shift();
+            currBill = currBill.join('');
+            currBill = +currBill;
+
+            let promoCode = document.getElementById('promo');
+            
+            if(promoCode.value == 'masai30' ) 
+            {
+                estTotal.textContent = '$' + (currBill*(70/100));
+                promoCode.value = "";
+                alert('30% discount applied');
+            }
+        }
+
+
+    </script>
+
+
+</body>
+</html>
