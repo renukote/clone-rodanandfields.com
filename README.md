@@ -2,12 +2,9 @@
 
 Rodanandfields is a beauty and skincare e-comm seller
 
-<img src = "http://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt = "rodan and fields image"/>
-
-![Logo]()
+![Logo](http://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA)
 
     
-
 ## Demo
 ![unit4Short gif](https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif)
 
@@ -39,7 +36,7 @@ Install-project with git
  
 
 ## Authors 
-[Renuka Prasad](https://github.com/Renukote)
+- [Renuka Prasad](https://github.com/Renukote)
 
 
 ## Tech Stack
