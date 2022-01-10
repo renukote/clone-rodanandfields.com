@@ -2,11 +2,11 @@
 
 Rodanandfields is a beauty and skincare e-comm seller
 
-![Logo](http://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA)
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsz37mHoreof2S69xRaqVtRrIh0Q74zRvcA&usqp=CAU)
 
     
 ## Demo
-![unit4Short gif](https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif)
+![unit4Short gif](https://raw.githubusercontent.com/Renukote/clone-rodanandfields.com/master/rodan-and-fields-thumbnail.png)
 
 ## Deployed link
 🔹 Live Demo [click here](https://renukote.github.io/clone-rodanandfields.com/homePage.html)
