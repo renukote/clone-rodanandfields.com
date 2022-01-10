@@ -2,9 +2,9 @@
 
 Rodanandfields is a beauty and skincare e-comm seller
 
-<a href ="https://www.rodanandfields.com/en-us/" > <img src = "http://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt = "rodan and fields image" style="color:white"/></a>
+<img src = "http://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt = "rodan and fields image"/>
 
-![Logo](https://i.ibb.co/QnJ7Bws/default-meta-image-v2-2-1-removebg-preview.png)
+![Logo]()
 
     
 
@@ -20,7 +20,7 @@ Rodanandfields is a beauty and skincare e-comm seller
 Install-project with git
 
 ```bash
- git clone https://github.com/Renukote/clone-rodanandfields.git
+ git clone https://github.com/Renukote/clone-rodanandfields.com.git
 ```
 
 ## Features
