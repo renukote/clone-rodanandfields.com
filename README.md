@@ -2,7 +2,7 @@
 
 Rodanandfields is a beauty and skincare e-comm seller
 
-![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsz37mHoreof2S69xRaqVtRrIh0Q74zRvcA&usqp=CAU)
+<p style="align: center"> <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsz37mHoreof2S69xRaqVtRrIh0Q74zRvcA&usqp=CAU" alt = "R + F logo" /> </p>
 
     
 ## Demo
